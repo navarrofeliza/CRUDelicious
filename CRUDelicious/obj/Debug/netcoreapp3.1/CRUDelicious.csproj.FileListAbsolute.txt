@@ -1,0 +1,7 @@
+C:\Users\ruros\OneDrive\Documents\Coding_School\c#\week2_c_sharp\CRUDelicious\CRUDelicious\obj\Debug\netcoreapp3.1\CRUDelicious.csprojAssemblyReference.cache
+C:\Users\ruros\OneDrive\Documents\Coding_School\c#\week2_c_sharp\CRUDelicious\CRUDelicious\obj\Debug\netcoreapp3.1\CRUDelicious.AssemblyInfoInputs.cache
+C:\Users\ruros\OneDrive\Documents\Coding_School\c#\week2_c_sharp\CRUDelicious\CRUDelicious\obj\Debug\netcoreapp3.1\CRUDelicious.AssemblyInfo.cs
+C:\Users\ruros\OneDrive\Documents\Coding_School\c#\week2_c_sharp\CRUDelicious\CRUDelicious\obj\Debug\netcoreapp3.1\CRUDelicious.csproj.CoreCompileInputs.cache
+C:\Users\ruros\OneDrive\Documents\Coding_School\c#\week2_c_sharp\CRUDelicious\CRUDelicious\obj\Debug\netcoreapp3.1\CRUDelicious.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ruros\OneDrive\Documents\Coding_School\c#\week2_c_sharp\CRUDelicious\CRUDelicious\obj\Debug\netcoreapp3.1\CRUDelicious.RazorAssemblyInfo.cache
+C:\Users\ruros\OneDrive\Documents\Coding_School\c#\week2_c_sharp\CRUDelicious\CRUDelicious\obj\Debug\netcoreapp3.1\CRUDelicious.RazorAssemblyInfo.cs

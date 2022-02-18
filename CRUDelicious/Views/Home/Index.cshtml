@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model Recipe
+
+<div class="text-center row">
+    <div class="col-6">
+        <h1>Add a Recipe!</h1>
+        <form action="addMonster" method="post">
+            <div class="form-group">
+                <label>Name</label>
+                <input asp-for="Name" class="form-control">
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Chef's Name</label>
+                <input asp-for="Name" class="form-control">
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Tastiness Scale</label>
+                <input asp-for="Tastiness" class="form-control">
+                <span asp-validation-for="Tastiness" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Calories</label>
+                <input asp-for="Calories" class="form-control">
+                <span asp-validation-for="Calories" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Decription of the recipe</label>
+                <input asp-for="Description" class="form-control">
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary" value="Submit">
+            </div>
+        </form>
+    </div>
+    <div class="col-6">
+        <h1>All the Recipes!</h1>
+        <table class="table table-striped">
+            <tr>
+                <th>Name</th>
+                <th>Chef's Name</th>
+                <th>Tastiness Scale</th>
+                <Th>Calories</Th>
+                <th>Brief Description</th>
+                <th>Actions</th>
+            </tr>
+            @{
+                foreach (Recipe rec in ViewBag.AllRecipes)
+                {
+                    <tr>
+                        <td>@rec.Name</td>
+                        <td>@rec.Chef</td>
+                        <td>@rec.Tastiness</td>
+                        <td>@rec.Calories</td>
+                        <td>@rec.Description</td>
+                        <td><a href="/edit/@rec.RecipeId" class="btn btn-secondary">Edit</a></td>
+                        <td><a href="/delete/@rec.RecipeId" class="btn btn-danger">X</a></td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+</div>
