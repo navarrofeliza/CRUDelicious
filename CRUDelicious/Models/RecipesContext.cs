@@ -1,13 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 namespace CRUDelicious.Models
 {
-    public class Recipes
+    public class MyContext : DbContext
     {
-        public class MyContext : DbContext
-        {
-            public MyContext(DbContextOptions options) : base(options) { }
-            // the "Monsters" table name will come from the DbSet variable name
-            public DbSet<Recipe> Recipes { get; set; }
-        }
+        public MyContext(DbContextOptions options) : base(options) { }
+        public DbSet<Recipe> Recipe { get; set; }
     }
 }

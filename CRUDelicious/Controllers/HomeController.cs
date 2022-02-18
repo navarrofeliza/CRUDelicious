@@ -31,7 +31,7 @@ namespace CRUDelicious.Controllers
             }
             else
             {
-                return View("Index");
+                return RedirectToAction("Index");
             }
         }
 
